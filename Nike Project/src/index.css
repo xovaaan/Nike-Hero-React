@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1280px;
+  align-items: center;
+  height: 72px;
+  margin-bottom: 120px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: 19px;
+}
+
+nav ul li{
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+ nav button{
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 2px solid #2e2e2e;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+button:hover{
+   cursor: pointer;
+    background-color:transparent;
+    color: black;
+    
+}
+
+nav ul li:hover{
+    color: green;
+    transform: scale(1.20);
+}
+
+.hero{
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh- 72px) ;
+}
+
+
+.hero h1{
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 100px;
+  margin-bottom: 30px;
+}
+
+.hero p{
+  color: #2e2e2e;
+  font-weight: 600 ;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.content-btn{
+  
+  margin-bottom: 15px;
+  display: flex;
+  gap: 20px;
+
+}
+
+.content-btn button{
+  padding: 6px 30px;
+  font-size: 15px;
+  background-color: #2e2e2e;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid #2e2e2e;
+  transition: all 0.6s ease;
+  font-size: 18px;
+}
+
+.content-btn button:hover{
+  background-color:transparent;
+  color: black;
+}
+
+
+
+
